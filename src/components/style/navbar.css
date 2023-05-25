@@ -1,0 +1,9 @@
+.navbar{
+    @apply w-[85%] h-[100%]  flex justify-between items-center m-auto 
+}
+.navbar > img{
+    @apply hover:drop-shadow-[0px_0px_3px_#96E6F4] cursor-pointer
+}
+.navbar_btn{
+    @apply bg-[#CF41AE] py-1 px-2 text-[white] hover:bg-[#98379C] hover:border duration-500 ease-in-out
+}

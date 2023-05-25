@@ -1,0 +1,24 @@
+.formulario {
+    @apply absolute top-[55%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 z-10 w-[320px] min-h-[300px] grid place-items-center gap-5 py-4 shadow-[3px_3px_2px] font-bold rounded-md  border
+}
+.formulario_i {
+    @apply translate-x-[130px] text-[24px] text-[red]
+}
+.formulario_caja{
+    @apply flex flex-col text-[white]
+}
+
+.formulario_caja_input {
+    @apply text-[black]  text-center font-semibold px-[20px] rounded-md 
+}
+
+.formulario_caja_bir {
+    @apply text-[black] px-[45px]
+}
+
+.formulario_btn {
+    @apply flex justify-around w-[100%] text-[white]
+}
+.formulario_btn_1{
+    @apply border border-[white] rounded-md shadow-[2px_2px_black] hover:bg-[#000000] py-2 px-2
+}
